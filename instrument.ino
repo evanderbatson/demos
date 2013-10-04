@@ -1,3 +1,4 @@
+//3 button arduino instrument by Evander Batson
 //see it in action here: http://www.youtube.com/watch?v=wywhOr7ExTw
 
 int ledPin[] = {6,7,8,9,10,11,12,13};
