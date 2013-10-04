@@ -1,3 +1,5 @@
+//see it in action here: http://www.youtube.com/watch?v=wywhOr7ExTw
+
 int ledPin[] = {6,7,8,9,10,11,12,13};
 int dMajor[] = {146,220,293,369,440,587,739,880}; // d a d f# a
 int eMinor[] = {329,392,493,329,392,493,329,392};
