@@ -39,9 +39,9 @@ void loop() {
   static int buttonC = 0;      
   buttonC = digitalRead(5);  
   
-  if (!buttonA) {  arpeggioA();  } else {noTone(buzzerPin);}  
-  if (!buttonB) {  arpeggioB();  } else {noTone(buzzerPin);}
-  if (!buttonC) {  theremin();  } else {noTone(buzzerPin);}
+  if (!buttonA) {  arpeggioA();  } else { noTone(buzzerPin); }  
+  if (!buttonB) {  arpeggioB();  } else { noTone(buzzerPin); }
+  if (!buttonC) {  theremin();  } else { noTone(buzzerPin); }
   
 }
 
