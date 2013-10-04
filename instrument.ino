@@ -14,9 +14,9 @@ void setup () {
   
   //buttons
   
-  pinMode(3,INPUT);   //yellow1
-  pinMode(4,INPUT);   //yellow2
-  pinMode(5,INPUT); //white (octive shift)
+  pinMode(3,INPUT);   //yellow1 - buttonA (gMajor)
+  pinMode(4,INPUT);   //yellow2 - buttonB (eEinor)
+  pinMode(5,INPUT); //white - buttonC (dMajor mapped theremin)
   
   //buzzer 
   
