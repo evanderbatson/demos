@@ -2,7 +2,7 @@
 			$(document).ready(function(){
 
 
-				var api_key = '5c44e59107d11d7e';
+				var api_key = 'yourApiKeyHere';
 				var i = 0;
 
 				var location = {
