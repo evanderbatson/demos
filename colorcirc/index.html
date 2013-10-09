@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- Hiii this is Evander Batson, this is my first week homework for Parsons MFADT Bootcamp yaayyyy -->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Colorcirc - Parsons MFADT Bootcamp 2013</title>
+
+        <link rel="icon" 
+      type="image/png" 
+      href="img/favicon.png">
+
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,800,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    <header></header>
+
+        <div id="title">
+            <h1>
+                <a href="#">
+            C
+                </a>
+                <a class="spinletter yellow">
+            o
+                </a>
+                <a class="spinletter blue">
+            l
+                </a>
+                <a class="spinletter violet">
+            o
+                </a>
+                <a class="spinletter red">
+            r
+                </a>
+                <a href="#colors">
+            c i r c
+                </a>
+            </h1>
+        </div> 
+
+        <div class="circ"></div>
+
+        <div id="colors">
+
+            <div class="colorbox yellowbox">#f6ec39</div>
+            <div class="colorbox redbox">
+            #f05522</div>
+            <div class="colorbox violetbox">#7d3694</div>
+            <div class="colorbox bluebox">
+            #0891cc</div>
+
+            </div>
+
+
+<!-- js fun time -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script type="text/javascript">
+
+
+$(function() {
+
+    $(".yellow").hover(function() {
+    $(".circ").addClass("r0");
+    $('.circ').removeClass('r90 r180 r270 rn');
+    });
+
+    $(".blue").hover(function() {
+    $(".circ").addClass("r90");
+    $('.circ').removeClass('r0 r180 r270 rn');
+    });
+
+    $(".violet").hover(function() {
+    $(".circ").addClass("r180");
+    $('.circ').removeClass('r90 r0 r270 rn');
+    });
+
+    $(".red").hover(function() {
+    $(".circ").addClass("r270");
+    $('.circ').removeClass('r90 r180 r0 rn');
+    });
+
+
+    $(".violetbox").hover(function() {
+    $(".circ").addClass("r0");
+    $('.circ').removeClass('r90 r180 r270 rn');
+    });
+
+    $(".redbox").hover(function() {
+    $(".circ").addClass("r90");
+    $('.circ').removeClass('r0 r180 r270 rn');
+    });
+
+    $(".yellowbox").hover(function() {
+    $(".circ").addClass("r180");
+    $('.circ').removeClass('r90 r0 r270 rn');
+    });
+
+    $(".bluebox").hover(function() {
+    $(".circ").addClass("rn");
+    $('.circ').removeClass('r90 r270 r180 r0');
+    });
+
+
+
+});
+
+
+
+
+        </script>
+
+    </body>
+</html>

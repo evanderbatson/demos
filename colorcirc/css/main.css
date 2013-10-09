@@ -1,0 +1,131 @@
+body, html {
+
+background:#333;
+margin: 0 auto;
+font-family: 'Open Sans', sans-serif;
+min-width:900px;
+}
+
+header {
+	padding-top: 1em;
+}
+
+h1 {
+	color: #eee;
+	font-size:4em;
+	margin:0;
+	padding:0 2em;
+	border-bottom-style:solid;
+	border-bottom-width:0.1em;
+	border-color:#252525;
+}
+
+a{color:#FFF;
+text-decoration: none}
+a:hover{color:#252525;
+cursor:pointer;-webkit-transition:100ms;-moz-transition:100ms;}
+
+.yellow {border-color:#f6ec39;}
+.blue {border-color:#0891cc;}
+.violet {border-color:#7d3694;}
+.red {border-color:#f05522;}
+
+.circ {
+	margin:0 auto;
+	width:900px;
+	height:900px;
+	background-image:url('../img/colorcirc.png');
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:100%;
+    z-index: 0;
+    -webkit-transition:100ms;
+    -moz-transition:100ms;
+  }
+
+
+.r0 {
+	-webkit-transform:rotate(0deg);
+		-webkit-transition:100ms;
+		-moz-transition:100ms;
+}
+
+.r90 {
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+}
+
+.r180 {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+}
+
+.r270 {
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+}
+
+.rn {
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+}
+
+#title {
+	background: #454545;
+	position: absolute;
+	z-index: 1;
+	height: 13em;
+	padding: 1em 0;
+	margin-top: 25em;
+	width: 100%;
+	font-weight: 800;
+	letter-spacing:0.1em;
+	min-width:900px;
+	border-color:#333;
+	border-bottom-width:1em;
+	border-bottom-style: solid;
+}
+
+.spinletter {
+	border-bottom-style:solid;
+	border-bottom-width:0.1em;
+	margin:0;
+	padding:0;
+}
+
+#colors {
+	background: #454545;
+	z-index: 1;
+	height: auto;
+	padding: 2em 0;
+	margin: 1em 0;
+	text-align:center;
+	width: 100%;
+}
+
+.colorbox {
+width:70px;
+height:70px;
+border-color:#252525;
+border-bottom-width:1em;
+border-bottom-style: solid;
+display:inline-block;
+border-radius:2px;
+font-weight:300;
+padding:3em;
+text-align:center;
+color:#252525;
+margin: 0 0.5em 0 0;
+}
+
+.yellowbox {background: #f6ec39;}
+
+.redbox {background: #f05522;}
+
+.bluebox {background: #0891cc;}
+
+.violetbox {background: #7d3694;}
+
+
+
+
